@@ -1,0 +1,25 @@
+ubuntu@ip-172-31-32-242:~$ ls
+guvi.txt
+ubuntu@ip-172-31-32-242:~$ cat guvi.txt
+welcome guvi session welcome to guvi session
+ubuntu@ip-172-31-32-242:~$ sed-i s+guvi+technologies+g guvi.txt
+sed-i: command not found
+ubuntu@ip-172-31-32-242:~$ sed -i s+guvi+technologies+g guvi.txt
+ubuntu@ip-172-31-32-242:~$ cat guvi.txt
+welcome technologies session welcome to technologies session
+ubuntu@ip-172-31-32-242:~$ guvi.txt > sindhu
+guvi.txt: command not found
+ubuntu@ip-172-31-32-242:~$ touch sindhu
+ubuntu@ip-172-31-32-242:~$ guvi.txt > sindhu
+guvi.txt: command not found
+ubuntu@ip-172-31-32-242:~$  guvi.txt > sindhu.txt
+guvi.txt: command not found
+ubuntu@ip-172-31-32-242:~$ cat guvi.txt >sindhu .txt
+cat: .txt: No such file or directory
+ubuntu@ip-172-31-32-242:~$ touch sindhu.txt
+ubuntu@ip-172-31-32-242:~$ cat guvi.txt > sindhu.txt
+ubuntu@ip-172-31-32-242:~$ cat sindhu.txt
+welcome technologies session welcome to technologies session
+ubuntu@ip-172-31-32-242:~$
+
+
